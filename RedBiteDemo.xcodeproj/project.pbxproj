@@ -3,7 +3,7 @@
 	archiveVersion = 1;
 	classes = {
 	};
-	objectVersion = 50;
+	objectVersion = 51;
 	objects = {
 
 /* Begin PBXBuildFile section */
@@ -11,12 +11,18 @@
 		720B5702E20809763BF48886 /* Pods_RedBiteDemo.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 04322C168D12C9843042FC04 /* Pods_RedBiteDemo.framework */; };
 		A55F9C3776828CAD9601D28B /* Pods_RedBiteDemoTests.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = B0EC83D451444F140D224920 /* Pods_RedBiteDemoTests.framework */; };
 		AF6172002270EB4D00F984D5 /* AppDelegate.swift in Sources */ = {isa = PBXBuildFile; fileRef = AF6171FF2270EB4D00F984D5 /* AppDelegate.swift */; };
-		AF6172022270EB4D00F984D5 /* ViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = AF6172012270EB4D00F984D5 /* ViewController.swift */; };
 		AF6172052270EB4D00F984D5 /* Main.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = AF6172032270EB4D00F984D5 /* Main.storyboard */; };
 		AF6172072270EB4F00F984D5 /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = AF6172062270EB4F00F984D5 /* Assets.xcassets */; };
 		AF61720A2270EB4F00F984D5 /* LaunchScreen.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = AF6172082270EB4F00F984D5 /* LaunchScreen.storyboard */; };
 		AF6172152270EB4F00F984D5 /* RedBiteDemoTests.swift in Sources */ = {isa = PBXBuildFile; fileRef = AF6172142270EB4F00F984D5 /* RedBiteDemoTests.swift */; };
 		AF6172202270EB4F00F984D5 /* RedBiteDemoUITests.swift in Sources */ = {isa = PBXBuildFile; fileRef = AF61721F2270EB4F00F984D5 /* RedBiteDemoUITests.swift */; };
+		AF6172342270F04D00F984D5 /* LandingVC.swift in Sources */ = {isa = PBXBuildFile; fileRef = AF61722E2270F04D00F984D5 /* LandingVC.swift */; };
+		AF6172352270F04D00F984D5 /* NetworkManager.swift in Sources */ = {isa = PBXBuildFile; fileRef = AF6172302270F04D00F984D5 /* NetworkManager.swift */; };
+		AF6172362270F04D00F984D5 /* NetworkDefinions.swift in Sources */ = {isa = PBXBuildFile; fileRef = AF6172312270F04D00F984D5 /* NetworkDefinions.swift */; };
+		AF6172372270F04D00F984D5 /* GithubAPI.swift in Sources */ = {isa = PBXBuildFile; fileRef = AF6172332270F04D00F984D5 /* GithubAPI.swift */; };
+		AF61723A2270F26100F984D5 /* ContribuitorInfoCell.swift in Sources */ = {isa = PBXBuildFile; fileRef = AF6172392270F26100F984D5 /* ContribuitorInfoCell.swift */; };
+		AF61723C2270FB7600F984D5 /* LandingVM.swift in Sources */ = {isa = PBXBuildFile; fileRef = AF61723B2270FB7600F984D5 /* LandingVM.swift */; };
+		AF61723E2270FCA300F984D5 /* GithubService.swift in Sources */ = {isa = PBXBuildFile; fileRef = AF61723D2270FCA300F984D5 /* GithubService.swift */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXContainerItemProxy section */
@@ -45,7 +51,6 @@
 		A9DA731CDE3A4E6239714FB9 /* Pods_RedBiteDemoUITests.framework */ = {isa = PBXFileReference; explicitFileType = wrapper.framework; includeInIndex = 0; path = Pods_RedBiteDemoUITests.framework; sourceTree = BUILT_PRODUCTS_DIR; };
 		AF6171FC2270EB4D00F984D5 /* RedBiteDemo.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = RedBiteDemo.app; sourceTree = BUILT_PRODUCTS_DIR; };
 		AF6171FF2270EB4D00F984D5 /* AppDelegate.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = AppDelegate.swift; sourceTree = "<group>"; };
-		AF6172012270EB4D00F984D5 /* ViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ViewController.swift; sourceTree = "<group>"; };
 		AF6172042270EB4D00F984D5 /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/Main.storyboard; sourceTree = "<group>"; };
 		AF6172062270EB4F00F984D5 /* Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = Assets.xcassets; sourceTree = "<group>"; };
 		AF6172092270EB4F00F984D5 /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/LaunchScreen.storyboard; sourceTree = "<group>"; };
@@ -56,6 +61,13 @@
 		AF61721B2270EB4F00F984D5 /* RedBiteDemoUITests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = RedBiteDemoUITests.xctest; sourceTree = BUILT_PRODUCTS_DIR; };
 		AF61721F2270EB4F00F984D5 /* RedBiteDemoUITests.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = RedBiteDemoUITests.swift; sourceTree = "<group>"; };
 		AF6172212270EB4F00F984D5 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		AF61722E2270F04D00F984D5 /* LandingVC.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = LandingVC.swift; sourceTree = "<group>"; };
+		AF6172302270F04D00F984D5 /* NetworkManager.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = NetworkManager.swift; sourceTree = "<group>"; };
+		AF6172312270F04D00F984D5 /* NetworkDefinions.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = NetworkDefinions.swift; sourceTree = "<group>"; };
+		AF6172332270F04D00F984D5 /* GithubAPI.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = GithubAPI.swift; sourceTree = "<group>"; };
+		AF6172392270F26100F984D5 /* ContribuitorInfoCell.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ContribuitorInfoCell.swift; sourceTree = "<group>"; };
+		AF61723B2270FB7600F984D5 /* LandingVM.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = LandingVM.swift; sourceTree = "<group>"; };
+		AF61723D2270FCA300F984D5 /* GithubService.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = GithubService.swift; sourceTree = "<group>"; };
 		B0EC83D451444F140D224920 /* Pods_RedBiteDemoTests.framework */ = {isa = PBXFileReference; explicitFileType = wrapper.framework; includeInIndex = 0; path = Pods_RedBiteDemoTests.framework; sourceTree = BUILT_PRODUCTS_DIR; };
 		D3A211A7D145176B400B7EF3 /* Pods-RedBiteDemoTests.release.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-RedBiteDemoTests.release.xcconfig"; path = "Target Support Files/Pods-RedBiteDemoTests/Pods-RedBiteDemoTests.release.xcconfig"; sourceTree = "<group>"; };
 		F8CA196B66A53CB9BFFCE081 /* Pods-RedBiteDemo.debug.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-RedBiteDemo.debug.xcconfig"; path = "Target Support Files/Pods-RedBiteDemo/Pods-RedBiteDemo.debug.xcconfig"; sourceTree = "<group>"; };
@@ -99,7 +111,6 @@
 				657F4742DE20F5AF6E290430 /* Pods-RedBiteDemoUITests.debug.xcconfig */,
 				85B4CC9EA1C7B5BBE33F9790 /* Pods-RedBiteDemoUITests.release.xcconfig */,
 			);
-			name = Pods;
 			path = Pods;
 			sourceTree = "<group>";
 		};
@@ -139,7 +150,8 @@
 			isa = PBXGroup;
 			children = (
 				AF6171FF2270EB4D00F984D5 /* AppDelegate.swift */,
-				AF6172012270EB4D00F984D5 /* ViewController.swift */,
+				AF61722D2270F04D00F984D5 /* Controller */,
+				AF61722F2270F04D00F984D5 /* Networking */,
 				AF6172032270EB4D00F984D5 /* Main.storyboard */,
 				AF6172062270EB4F00F984D5 /* Assets.xcassets */,
 				AF6172082270EB4F00F984D5 /* LaunchScreen.storyboard */,
@@ -164,6 +176,43 @@
 				AF6172212270EB4F00F984D5 /* Info.plist */,
 			);
 			path = RedBiteDemoUITests;
+			sourceTree = "<group>";
+		};
+		AF61722D2270F04D00F984D5 /* Controller */ = {
+			isa = PBXGroup;
+			children = (
+				AF6172382270F21B00F984D5 /* Cells */,
+				AF61722E2270F04D00F984D5 /* LandingVC.swift */,
+				AF61723B2270FB7600F984D5 /* LandingVM.swift */,
+			);
+			path = Controller;
+			sourceTree = "<group>";
+		};
+		AF61722F2270F04D00F984D5 /* Networking */ = {
+			isa = PBXGroup;
+			children = (
+				AF6172302270F04D00F984D5 /* NetworkManager.swift */,
+				AF6172312270F04D00F984D5 /* NetworkDefinions.swift */,
+				AF6172322270F04D00F984D5 /* Services */,
+			);
+			path = Networking;
+			sourceTree = "<group>";
+		};
+		AF6172322270F04D00F984D5 /* Services */ = {
+			isa = PBXGroup;
+			children = (
+				AF6172332270F04D00F984D5 /* GithubAPI.swift */,
+				AF61723D2270FCA300F984D5 /* GithubService.swift */,
+			);
+			path = Services;
+			sourceTree = "<group>";
+		};
+		AF6172382270F21B00F984D5 /* Cells */ = {
+			isa = PBXGroup;
+			children = (
+				AF6172392270F26100F984D5 /* ContribuitorInfoCell.swift */,
+			);
+			path = Cells;
 			sourceTree = "<group>";
 		};
 /* End PBXGroup section */
@@ -387,8 +436,14 @@
 			isa = PBXSourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
-				AF6172022270EB4D00F984D5 /* ViewController.swift in Sources */,
+				AF6172372270F04D00F984D5 /* GithubAPI.swift in Sources */,
+				AF61723A2270F26100F984D5 /* ContribuitorInfoCell.swift in Sources */,
+				AF61723E2270FCA300F984D5 /* GithubService.swift in Sources */,
+				AF6172352270F04D00F984D5 /* NetworkManager.swift in Sources */,
+				AF6172342270F04D00F984D5 /* LandingVC.swift in Sources */,
+				AF6172362270F04D00F984D5 /* NetworkDefinions.swift in Sources */,
 				AF6172002270EB4D00F984D5 /* AppDelegate.swift in Sources */,
+				AF61723C2270FB7600F984D5 /* LandingVM.swift in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
