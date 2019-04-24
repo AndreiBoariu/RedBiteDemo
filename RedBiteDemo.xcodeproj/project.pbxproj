@@ -1,0 +1,722 @@
+// !$*UTF8*$!
+{
+	archiveVersion = 1;
+	classes = {
+	};
+	objectVersion = 50;
+	objects = {
+
+/* Begin PBXBuildFile section */
+		6D90F0BAF7114637E29FDE18 /* Pods_RedBiteDemoUITests.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = A9DA731CDE3A4E6239714FB9 /* Pods_RedBiteDemoUITests.framework */; };
+		720B5702E20809763BF48886 /* Pods_RedBiteDemo.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 04322C168D12C9843042FC04 /* Pods_RedBiteDemo.framework */; };
+		A55F9C3776828CAD9601D28B /* Pods_RedBiteDemoTests.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = B0EC83D451444F140D224920 /* Pods_RedBiteDemoTests.framework */; };
+		AF6172002270EB4D00F984D5 /* AppDelegate.swift in Sources */ = {isa = PBXBuildFile; fileRef = AF6171FF2270EB4D00F984D5 /* AppDelegate.swift */; };
+		AF6172022270EB4D00F984D5 /* ViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = AF6172012270EB4D00F984D5 /* ViewController.swift */; };
+		AF6172052270EB4D00F984D5 /* Main.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = AF6172032270EB4D00F984D5 /* Main.storyboard */; };
+		AF6172072270EB4F00F984D5 /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = AF6172062270EB4F00F984D5 /* Assets.xcassets */; };
+		AF61720A2270EB4F00F984D5 /* LaunchScreen.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = AF6172082270EB4F00F984D5 /* LaunchScreen.storyboard */; };
+		AF6172152270EB4F00F984D5 /* RedBiteDemoTests.swift in Sources */ = {isa = PBXBuildFile; fileRef = AF6172142270EB4F00F984D5 /* RedBiteDemoTests.swift */; };
+		AF6172202270EB4F00F984D5 /* RedBiteDemoUITests.swift in Sources */ = {isa = PBXBuildFile; fileRef = AF61721F2270EB4F00F984D5 /* RedBiteDemoUITests.swift */; };
+/* End PBXBuildFile section */
+
+/* Begin PBXContainerItemProxy section */
+		AF6172112270EB4F00F984D5 /* PBXContainerItemProxy */ = {
+			isa = PBXContainerItemProxy;
+			containerPortal = AF6171F42270EB4D00F984D5 /* Project object */;
+			proxyType = 1;
+			remoteGlobalIDString = AF6171FB2270EB4D00F984D5;
+			remoteInfo = RedBiteDemo;
+		};
+		AF61721C2270EB4F00F984D5 /* PBXContainerItemProxy */ = {
+			isa = PBXContainerItemProxy;
+			containerPortal = AF6171F42270EB4D00F984D5 /* Project object */;
+			proxyType = 1;
+			remoteGlobalIDString = AF6171FB2270EB4D00F984D5;
+			remoteInfo = RedBiteDemo;
+		};
+/* End PBXContainerItemProxy section */
+
+/* Begin PBXFileReference section */
+		04322C168D12C9843042FC04 /* Pods_RedBiteDemo.framework */ = {isa = PBXFileReference; explicitFileType = wrapper.framework; includeInIndex = 0; path = Pods_RedBiteDemo.framework; sourceTree = BUILT_PRODUCTS_DIR; };
+		516CC0CB82059561E91FB418 /* Pods-RedBiteDemoTests.debug.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-RedBiteDemoTests.debug.xcconfig"; path = "Target Support Files/Pods-RedBiteDemoTests/Pods-RedBiteDemoTests.debug.xcconfig"; sourceTree = "<group>"; };
+		64F4D2D58B87C730B80409D8 /* Pods-RedBiteDemo.release.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-RedBiteDemo.release.xcconfig"; path = "Target Support Files/Pods-RedBiteDemo/Pods-RedBiteDemo.release.xcconfig"; sourceTree = "<group>"; };
+		657F4742DE20F5AF6E290430 /* Pods-RedBiteDemoUITests.debug.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-RedBiteDemoUITests.debug.xcconfig"; path = "Target Support Files/Pods-RedBiteDemoUITests/Pods-RedBiteDemoUITests.debug.xcconfig"; sourceTree = "<group>"; };
+		85B4CC9EA1C7B5BBE33F9790 /* Pods-RedBiteDemoUITests.release.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-RedBiteDemoUITests.release.xcconfig"; path = "Target Support Files/Pods-RedBiteDemoUITests/Pods-RedBiteDemoUITests.release.xcconfig"; sourceTree = "<group>"; };
+		A9DA731CDE3A4E6239714FB9 /* Pods_RedBiteDemoUITests.framework */ = {isa = PBXFileReference; explicitFileType = wrapper.framework; includeInIndex = 0; path = Pods_RedBiteDemoUITests.framework; sourceTree = BUILT_PRODUCTS_DIR; };
+		AF6171FC2270EB4D00F984D5 /* RedBiteDemo.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = RedBiteDemo.app; sourceTree = BUILT_PRODUCTS_DIR; };
+		AF6171FF2270EB4D00F984D5 /* AppDelegate.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = AppDelegate.swift; sourceTree = "<group>"; };
+		AF6172012270EB4D00F984D5 /* ViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ViewController.swift; sourceTree = "<group>"; };
+		AF6172042270EB4D00F984D5 /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/Main.storyboard; sourceTree = "<group>"; };
+		AF6172062270EB4F00F984D5 /* Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = Assets.xcassets; sourceTree = "<group>"; };
+		AF6172092270EB4F00F984D5 /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/LaunchScreen.storyboard; sourceTree = "<group>"; };
+		AF61720B2270EB4F00F984D5 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		AF6172102270EB4F00F984D5 /* RedBiteDemoTests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = RedBiteDemoTests.xctest; sourceTree = BUILT_PRODUCTS_DIR; };
+		AF6172142270EB4F00F984D5 /* RedBiteDemoTests.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = RedBiteDemoTests.swift; sourceTree = "<group>"; };
+		AF6172162270EB4F00F984D5 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		AF61721B2270EB4F00F984D5 /* RedBiteDemoUITests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = RedBiteDemoUITests.xctest; sourceTree = BUILT_PRODUCTS_DIR; };
+		AF61721F2270EB4F00F984D5 /* RedBiteDemoUITests.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = RedBiteDemoUITests.swift; sourceTree = "<group>"; };
+		AF6172212270EB4F00F984D5 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		B0EC83D451444F140D224920 /* Pods_RedBiteDemoTests.framework */ = {isa = PBXFileReference; explicitFileType = wrapper.framework; includeInIndex = 0; path = Pods_RedBiteDemoTests.framework; sourceTree = BUILT_PRODUCTS_DIR; };
+		D3A211A7D145176B400B7EF3 /* Pods-RedBiteDemoTests.release.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-RedBiteDemoTests.release.xcconfig"; path = "Target Support Files/Pods-RedBiteDemoTests/Pods-RedBiteDemoTests.release.xcconfig"; sourceTree = "<group>"; };
+		F8CA196B66A53CB9BFFCE081 /* Pods-RedBiteDemo.debug.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-RedBiteDemo.debug.xcconfig"; path = "Target Support Files/Pods-RedBiteDemo/Pods-RedBiteDemo.debug.xcconfig"; sourceTree = "<group>"; };
+/* End PBXFileReference section */
+
+/* Begin PBXFrameworksBuildPhase section */
+		AF6171F92270EB4D00F984D5 /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				720B5702E20809763BF48886 /* Pods_RedBiteDemo.framework in Frameworks */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		AF61720D2270EB4F00F984D5 /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				A55F9C3776828CAD9601D28B /* Pods_RedBiteDemoTests.framework in Frameworks */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		AF6172182270EB4F00F984D5 /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				6D90F0BAF7114637E29FDE18 /* Pods_RedBiteDemoUITests.framework in Frameworks */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXFrameworksBuildPhase section */
+
+/* Begin PBXGroup section */
+		629E4C6F38E5C347904E8F28 /* Pods */ = {
+			isa = PBXGroup;
+			children = (
+				F8CA196B66A53CB9BFFCE081 /* Pods-RedBiteDemo.debug.xcconfig */,
+				64F4D2D58B87C730B80409D8 /* Pods-RedBiteDemo.release.xcconfig */,
+				516CC0CB82059561E91FB418 /* Pods-RedBiteDemoTests.debug.xcconfig */,
+				D3A211A7D145176B400B7EF3 /* Pods-RedBiteDemoTests.release.xcconfig */,
+				657F4742DE20F5AF6E290430 /* Pods-RedBiteDemoUITests.debug.xcconfig */,
+				85B4CC9EA1C7B5BBE33F9790 /* Pods-RedBiteDemoUITests.release.xcconfig */,
+			);
+			name = Pods;
+			path = Pods;
+			sourceTree = "<group>";
+		};
+		95B9CD15C57A770F629654C2 /* Frameworks */ = {
+			isa = PBXGroup;
+			children = (
+				04322C168D12C9843042FC04 /* Pods_RedBiteDemo.framework */,
+				B0EC83D451444F140D224920 /* Pods_RedBiteDemoTests.framework */,
+				A9DA731CDE3A4E6239714FB9 /* Pods_RedBiteDemoUITests.framework */,
+			);
+			name = Frameworks;
+			sourceTree = "<group>";
+		};
+		AF6171F32270EB4D00F984D5 = {
+			isa = PBXGroup;
+			children = (
+				AF6171FE2270EB4D00F984D5 /* RedBiteDemo */,
+				AF6172132270EB4F00F984D5 /* RedBiteDemoTests */,
+				AF61721E2270EB4F00F984D5 /* RedBiteDemoUITests */,
+				AF6171FD2270EB4D00F984D5 /* Products */,
+				629E4C6F38E5C347904E8F28 /* Pods */,
+				95B9CD15C57A770F629654C2 /* Frameworks */,
+			);
+			sourceTree = "<group>";
+		};
+		AF6171FD2270EB4D00F984D5 /* Products */ = {
+			isa = PBXGroup;
+			children = (
+				AF6171FC2270EB4D00F984D5 /* RedBiteDemo.app */,
+				AF6172102270EB4F00F984D5 /* RedBiteDemoTests.xctest */,
+				AF61721B2270EB4F00F984D5 /* RedBiteDemoUITests.xctest */,
+			);
+			name = Products;
+			sourceTree = "<group>";
+		};
+		AF6171FE2270EB4D00F984D5 /* RedBiteDemo */ = {
+			isa = PBXGroup;
+			children = (
+				AF6171FF2270EB4D00F984D5 /* AppDelegate.swift */,
+				AF6172012270EB4D00F984D5 /* ViewController.swift */,
+				AF6172032270EB4D00F984D5 /* Main.storyboard */,
+				AF6172062270EB4F00F984D5 /* Assets.xcassets */,
+				AF6172082270EB4F00F984D5 /* LaunchScreen.storyboard */,
+				AF61720B2270EB4F00F984D5 /* Info.plist */,
+			);
+			path = RedBiteDemo;
+			sourceTree = "<group>";
+		};
+		AF6172132270EB4F00F984D5 /* RedBiteDemoTests */ = {
+			isa = PBXGroup;
+			children = (
+				AF6172142270EB4F00F984D5 /* RedBiteDemoTests.swift */,
+				AF6172162270EB4F00F984D5 /* Info.plist */,
+			);
+			path = RedBiteDemoTests;
+			sourceTree = "<group>";
+		};
+		AF61721E2270EB4F00F984D5 /* RedBiteDemoUITests */ = {
+			isa = PBXGroup;
+			children = (
+				AF61721F2270EB4F00F984D5 /* RedBiteDemoUITests.swift */,
+				AF6172212270EB4F00F984D5 /* Info.plist */,
+			);
+			path = RedBiteDemoUITests;
+			sourceTree = "<group>";
+		};
+/* End PBXGroup section */
+
+/* Begin PBXNativeTarget section */
+		AF6171FB2270EB4D00F984D5 /* RedBiteDemo */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = AF6172242270EB4F00F984D5 /* Build configuration list for PBXNativeTarget "RedBiteDemo" */;
+			buildPhases = (
+				84FE93A38DF1994A53C0A578 /* [CP] Check Pods Manifest.lock */,
+				AF6171F82270EB4D00F984D5 /* Sources */,
+				AF6171F92270EB4D00F984D5 /* Frameworks */,
+				AF6171FA2270EB4D00F984D5 /* Resources */,
+				0DB422807F5AD2C41AB8FB7E /* [CP] Embed Pods Frameworks */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+			);
+			name = RedBiteDemo;
+			productName = RedBiteDemo;
+			productReference = AF6171FC2270EB4D00F984D5 /* RedBiteDemo.app */;
+			productType = "com.apple.product-type.application";
+		};
+		AF61720F2270EB4F00F984D5 /* RedBiteDemoTests */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = AF6172272270EB4F00F984D5 /* Build configuration list for PBXNativeTarget "RedBiteDemoTests" */;
+			buildPhases = (
+				8736FC1380E97B5248B05D4C /* [CP] Check Pods Manifest.lock */,
+				AF61720C2270EB4F00F984D5 /* Sources */,
+				AF61720D2270EB4F00F984D5 /* Frameworks */,
+				AF61720E2270EB4F00F984D5 /* Resources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+				AF6172122270EB4F00F984D5 /* PBXTargetDependency */,
+			);
+			name = RedBiteDemoTests;
+			productName = RedBiteDemoTests;
+			productReference = AF6172102270EB4F00F984D5 /* RedBiteDemoTests.xctest */;
+			productType = "com.apple.product-type.bundle.unit-test";
+		};
+		AF61721A2270EB4F00F984D5 /* RedBiteDemoUITests */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = AF61722A2270EB4F00F984D5 /* Build configuration list for PBXNativeTarget "RedBiteDemoUITests" */;
+			buildPhases = (
+				3E4EE8C0F830F23B675CEDF7 /* [CP] Check Pods Manifest.lock */,
+				AF6172172270EB4F00F984D5 /* Sources */,
+				AF6172182270EB4F00F984D5 /* Frameworks */,
+				AF6172192270EB4F00F984D5 /* Resources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+				AF61721D2270EB4F00F984D5 /* PBXTargetDependency */,
+			);
+			name = RedBiteDemoUITests;
+			productName = RedBiteDemoUITests;
+			productReference = AF61721B2270EB4F00F984D5 /* RedBiteDemoUITests.xctest */;
+			productType = "com.apple.product-type.bundle.ui-testing";
+		};
+/* End PBXNativeTarget section */
+
+/* Begin PBXProject section */
+		AF6171F42270EB4D00F984D5 /* Project object */ = {
+			isa = PBXProject;
+			attributes = {
+				LastSwiftUpdateCheck = 1010;
+				LastUpgradeCheck = 1010;
+				ORGANIZATIONNAME = "RedBite Inc.";
+				TargetAttributes = {
+					AF6171FB2270EB4D00F984D5 = {
+						CreatedOnToolsVersion = 10.1;
+					};
+					AF61720F2270EB4F00F984D5 = {
+						CreatedOnToolsVersion = 10.1;
+						TestTargetID = AF6171FB2270EB4D00F984D5;
+					};
+					AF61721A2270EB4F00F984D5 = {
+						CreatedOnToolsVersion = 10.1;
+						TestTargetID = AF6171FB2270EB4D00F984D5;
+					};
+				};
+			};
+			buildConfigurationList = AF6171F72270EB4D00F984D5 /* Build configuration list for PBXProject "RedBiteDemo" */;
+			compatibilityVersion = "Xcode 9.3";
+			developmentRegion = en;
+			hasScannedForEncodings = 0;
+			knownRegions = (
+				en,
+				Base,
+			);
+			mainGroup = AF6171F32270EB4D00F984D5;
+			productRefGroup = AF6171FD2270EB4D00F984D5 /* Products */;
+			projectDirPath = "";
+			projectRoot = "";
+			targets = (
+				AF6171FB2270EB4D00F984D5 /* RedBiteDemo */,
+				AF61720F2270EB4F00F984D5 /* RedBiteDemoTests */,
+				AF61721A2270EB4F00F984D5 /* RedBiteDemoUITests */,
+			);
+		};
+/* End PBXProject section */
+
+/* Begin PBXResourcesBuildPhase section */
+		AF6171FA2270EB4D00F984D5 /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				AF61720A2270EB4F00F984D5 /* LaunchScreen.storyboard in Resources */,
+				AF6172072270EB4F00F984D5 /* Assets.xcassets in Resources */,
+				AF6172052270EB4D00F984D5 /* Main.storyboard in Resources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		AF61720E2270EB4F00F984D5 /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		AF6172192270EB4F00F984D5 /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXResourcesBuildPhase section */
+
+/* Begin PBXShellScriptBuildPhase section */
+		0DB422807F5AD2C41AB8FB7E /* [CP] Embed Pods Frameworks */ = {
+			isa = PBXShellScriptBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			inputFileListPaths = (
+				"${PODS_ROOT}/Target Support Files/Pods-RedBiteDemo/Pods-RedBiteDemo-frameworks-${CONFIGURATION}-input-files.xcfilelist",
+			);
+			name = "[CP] Embed Pods Frameworks";
+			outputFileListPaths = (
+				"${PODS_ROOT}/Target Support Files/Pods-RedBiteDemo/Pods-RedBiteDemo-frameworks-${CONFIGURATION}-output-files.xcfilelist",
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+			shellPath = /bin/sh;
+			shellScript = "\"${PODS_ROOT}/Target Support Files/Pods-RedBiteDemo/Pods-RedBiteDemo-frameworks.sh\"\n";
+			showEnvVarsInLog = 0;
+		};
+		3E4EE8C0F830F23B675CEDF7 /* [CP] Check Pods Manifest.lock */ = {
+			isa = PBXShellScriptBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			inputFileListPaths = (
+			);
+			inputPaths = (
+				"${PODS_PODFILE_DIR_PATH}/Podfile.lock",
+				"${PODS_ROOT}/Manifest.lock",
+			);
+			name = "[CP] Check Pods Manifest.lock";
+			outputFileListPaths = (
+			);
+			outputPaths = (
+				"$(DERIVED_FILE_DIR)/Pods-RedBiteDemoUITests-checkManifestLockResult.txt",
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+			shellPath = /bin/sh;
+			shellScript = "diff \"${PODS_PODFILE_DIR_PATH}/Podfile.lock\" \"${PODS_ROOT}/Manifest.lock\" > /dev/null\nif [ $? != 0 ] ; then\n    # print error to STDERR\n    echo \"error: The sandbox is not in sync with the Podfile.lock. Run 'pod install' or update your CocoaPods installation.\" >&2\n    exit 1\nfi\n# This output is used by Xcode 'outputs' to avoid re-running this script phase.\necho \"SUCCESS\" > \"${SCRIPT_OUTPUT_FILE_0}\"\n";
+			showEnvVarsInLog = 0;
+		};
+		84FE93A38DF1994A53C0A578 /* [CP] Check Pods Manifest.lock */ = {
+			isa = PBXShellScriptBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			inputFileListPaths = (
+			);
+			inputPaths = (
+				"${PODS_PODFILE_DIR_PATH}/Podfile.lock",
+				"${PODS_ROOT}/Manifest.lock",
+			);
+			name = "[CP] Check Pods Manifest.lock";
+			outputFileListPaths = (
+			);
+			outputPaths = (
+				"$(DERIVED_FILE_DIR)/Pods-RedBiteDemo-checkManifestLockResult.txt",
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+			shellPath = /bin/sh;
+			shellScript = "diff \"${PODS_PODFILE_DIR_PATH}/Podfile.lock\" \"${PODS_ROOT}/Manifest.lock\" > /dev/null\nif [ $? != 0 ] ; then\n    # print error to STDERR\n    echo \"error: The sandbox is not in sync with the Podfile.lock. Run 'pod install' or update your CocoaPods installation.\" >&2\n    exit 1\nfi\n# This output is used by Xcode 'outputs' to avoid re-running this script phase.\necho \"SUCCESS\" > \"${SCRIPT_OUTPUT_FILE_0}\"\n";
+			showEnvVarsInLog = 0;
+		};
+		8736FC1380E97B5248B05D4C /* [CP] Check Pods Manifest.lock */ = {
+			isa = PBXShellScriptBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			inputFileListPaths = (
+			);
+			inputPaths = (
+				"${PODS_PODFILE_DIR_PATH}/Podfile.lock",
+				"${PODS_ROOT}/Manifest.lock",
+			);
+			name = "[CP] Check Pods Manifest.lock";
+			outputFileListPaths = (
+			);
+			outputPaths = (
+				"$(DERIVED_FILE_DIR)/Pods-RedBiteDemoTests-checkManifestLockResult.txt",
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+			shellPath = /bin/sh;
+			shellScript = "diff \"${PODS_PODFILE_DIR_PATH}/Podfile.lock\" \"${PODS_ROOT}/Manifest.lock\" > /dev/null\nif [ $? != 0 ] ; then\n    # print error to STDERR\n    echo \"error: The sandbox is not in sync with the Podfile.lock. Run 'pod install' or update your CocoaPods installation.\" >&2\n    exit 1\nfi\n# This output is used by Xcode 'outputs' to avoid re-running this script phase.\necho \"SUCCESS\" > \"${SCRIPT_OUTPUT_FILE_0}\"\n";
+			showEnvVarsInLog = 0;
+		};
+/* End PBXShellScriptBuildPhase section */
+
+/* Begin PBXSourcesBuildPhase section */
+		AF6171F82270EB4D00F984D5 /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				AF6172022270EB4D00F984D5 /* ViewController.swift in Sources */,
+				AF6172002270EB4D00F984D5 /* AppDelegate.swift in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		AF61720C2270EB4F00F984D5 /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				AF6172152270EB4F00F984D5 /* RedBiteDemoTests.swift in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		AF6172172270EB4F00F984D5 /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				AF6172202270EB4F00F984D5 /* RedBiteDemoUITests.swift in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXSourcesBuildPhase section */
+
+/* Begin PBXTargetDependency section */
+		AF6172122270EB4F00F984D5 /* PBXTargetDependency */ = {
+			isa = PBXTargetDependency;
+			target = AF6171FB2270EB4D00F984D5 /* RedBiteDemo */;
+			targetProxy = AF6172112270EB4F00F984D5 /* PBXContainerItemProxy */;
+		};
+		AF61721D2270EB4F00F984D5 /* PBXTargetDependency */ = {
+			isa = PBXTargetDependency;
+			target = AF6171FB2270EB4D00F984D5 /* RedBiteDemo */;
+			targetProxy = AF61721C2270EB4F00F984D5 /* PBXContainerItemProxy */;
+		};
+/* End PBXTargetDependency section */
+
+/* Begin PBXVariantGroup section */
+		AF6172032270EB4D00F984D5 /* Main.storyboard */ = {
+			isa = PBXVariantGroup;
+			children = (
+				AF6172042270EB4D00F984D5 /* Base */,
+			);
+			name = Main.storyboard;
+			sourceTree = "<group>";
+		};
+		AF6172082270EB4F00F984D5 /* LaunchScreen.storyboard */ = {
+			isa = PBXVariantGroup;
+			children = (
+				AF6172092270EB4F00F984D5 /* Base */,
+			);
+			name = LaunchScreen.storyboard;
+			sourceTree = "<group>";
+		};
+/* End PBXVariantGroup section */
+
+/* Begin XCBuildConfiguration section */
+		AF6172222270EB4F00F984D5 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				CLANG_ANALYZER_NONNULL = YES;
+				CLANG_ANALYZER_NUMBER_OBJECT_CONVERSION = YES_AGGRESSIVE;
+				CLANG_CXX_LANGUAGE_STANDARD = "gnu++14";
+				CLANG_CXX_LIBRARY = "libc++";
+				CLANG_ENABLE_MODULES = YES;
+				CLANG_ENABLE_OBJC_ARC = YES;
+				CLANG_ENABLE_OBJC_WEAK = YES;
+				CLANG_WARN_BLOCK_CAPTURE_AUTORELEASING = YES;
+				CLANG_WARN_BOOL_CONVERSION = YES;
+				CLANG_WARN_COMMA = YES;
+				CLANG_WARN_CONSTANT_CONVERSION = YES;
+				CLANG_WARN_DEPRECATED_OBJC_IMPLEMENTATIONS = YES;
+				CLANG_WARN_DIRECT_OBJC_ISA_USAGE = YES_ERROR;
+				CLANG_WARN_DOCUMENTATION_COMMENTS = YES;
+				CLANG_WARN_EMPTY_BODY = YES;
+				CLANG_WARN_ENUM_CONVERSION = YES;
+				CLANG_WARN_INFINITE_RECURSION = YES;
+				CLANG_WARN_INT_CONVERSION = YES;
+				CLANG_WARN_NON_LITERAL_NULL_CONVERSION = YES;
+				CLANG_WARN_OBJC_IMPLICIT_RETAIN_SELF = YES;
+				CLANG_WARN_OBJC_LITERAL_CONVERSION = YES;
+				CLANG_WARN_OBJC_ROOT_CLASS = YES_ERROR;
+				CLANG_WARN_RANGE_LOOP_ANALYSIS = YES;
+				CLANG_WARN_STRICT_PROTOTYPES = YES;
+				CLANG_WARN_SUSPICIOUS_MOVE = YES;
+				CLANG_WARN_UNGUARDED_AVAILABILITY = YES_AGGRESSIVE;
+				CLANG_WARN_UNREACHABLE_CODE = YES;
+				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
+				CODE_SIGN_IDENTITY = "iPhone Developer";
+				COPY_PHASE_STRIP = NO;
+				DEBUG_INFORMATION_FORMAT = dwarf;
+				ENABLE_STRICT_OBJC_MSGSEND = YES;
+				ENABLE_TESTABILITY = YES;
+				GCC_C_LANGUAGE_STANDARD = gnu11;
+				GCC_DYNAMIC_NO_PIC = NO;
+				GCC_NO_COMMON_BLOCKS = YES;
+				GCC_OPTIMIZATION_LEVEL = 0;
+				GCC_PREPROCESSOR_DEFINITIONS = (
+					"DEBUG=1",
+					"$(inherited)",
+				);
+				GCC_WARN_64_TO_32_BIT_CONVERSION = YES;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES_ERROR;
+				GCC_WARN_UNDECLARED_SELECTOR = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES_AGGRESSIVE;
+				GCC_WARN_UNUSED_FUNCTION = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 12.1;
+				MTL_ENABLE_DEBUG_INFO = INCLUDE_SOURCE;
+				MTL_FAST_MATH = YES;
+				ONLY_ACTIVE_ARCH = YES;
+				SDKROOT = iphoneos;
+				SWIFT_ACTIVE_COMPILATION_CONDITIONS = DEBUG;
+				SWIFT_OPTIMIZATION_LEVEL = "-Onone";
+			};
+			name = Debug;
+		};
+		AF6172232270EB4F00F984D5 /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				CLANG_ANALYZER_NONNULL = YES;
+				CLANG_ANALYZER_NUMBER_OBJECT_CONVERSION = YES_AGGRESSIVE;
+				CLANG_CXX_LANGUAGE_STANDARD = "gnu++14";
+				CLANG_CXX_LIBRARY = "libc++";
+				CLANG_ENABLE_MODULES = YES;
+				CLANG_ENABLE_OBJC_ARC = YES;
+				CLANG_ENABLE_OBJC_WEAK = YES;
+				CLANG_WARN_BLOCK_CAPTURE_AUTORELEASING = YES;
+				CLANG_WARN_BOOL_CONVERSION = YES;
+				CLANG_WARN_COMMA = YES;
+				CLANG_WARN_CONSTANT_CONVERSION = YES;
+				CLANG_WARN_DEPRECATED_OBJC_IMPLEMENTATIONS = YES;
+				CLANG_WARN_DIRECT_OBJC_ISA_USAGE = YES_ERROR;
+				CLANG_WARN_DOCUMENTATION_COMMENTS = YES;
+				CLANG_WARN_EMPTY_BODY = YES;
+				CLANG_WARN_ENUM_CONVERSION = YES;
+				CLANG_WARN_INFINITE_RECURSION = YES;
+				CLANG_WARN_INT_CONVERSION = YES;
+				CLANG_WARN_NON_LITERAL_NULL_CONVERSION = YES;
+				CLANG_WARN_OBJC_IMPLICIT_RETAIN_SELF = YES;
+				CLANG_WARN_OBJC_LITERAL_CONVERSION = YES;
+				CLANG_WARN_OBJC_ROOT_CLASS = YES_ERROR;
+				CLANG_WARN_RANGE_LOOP_ANALYSIS = YES;
+				CLANG_WARN_STRICT_PROTOTYPES = YES;
+				CLANG_WARN_SUSPICIOUS_MOVE = YES;
+				CLANG_WARN_UNGUARDED_AVAILABILITY = YES_AGGRESSIVE;
+				CLANG_WARN_UNREACHABLE_CODE = YES;
+				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
+				CODE_SIGN_IDENTITY = "iPhone Developer";
+				COPY_PHASE_STRIP = NO;
+				DEBUG_INFORMATION_FORMAT = "dwarf-with-dsym";
+				ENABLE_NS_ASSERTIONS = NO;
+				ENABLE_STRICT_OBJC_MSGSEND = YES;
+				GCC_C_LANGUAGE_STANDARD = gnu11;
+				GCC_NO_COMMON_BLOCKS = YES;
+				GCC_WARN_64_TO_32_BIT_CONVERSION = YES;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES_ERROR;
+				GCC_WARN_UNDECLARED_SELECTOR = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES_AGGRESSIVE;
+				GCC_WARN_UNUSED_FUNCTION = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 12.1;
+				MTL_ENABLE_DEBUG_INFO = NO;
+				MTL_FAST_MATH = YES;
+				SDKROOT = iphoneos;
+				SWIFT_COMPILATION_MODE = wholemodule;
+				SWIFT_OPTIMIZATION_LEVEL = "-O";
+				VALIDATE_PRODUCT = YES;
+			};
+			name = Release;
+		};
+		AF6172252270EB4F00F984D5 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			baseConfigurationReference = F8CA196B66A53CB9BFFCE081 /* Pods-RedBiteDemo.debug.xcconfig */;
+			buildSettings = {
+				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				CODE_SIGN_STYLE = Automatic;
+				INFOPLIST_FILE = RedBiteDemo/Info.plist;
+				LD_RUNPATH_SEARCH_PATHS = (
+					"$(inherited)",
+					"@executable_path/Frameworks",
+				);
+				PRODUCT_BUNDLE_IDENTIFIER = com.redbite.mobile;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SWIFT_VERSION = 4.2;
+				TARGETED_DEVICE_FAMILY = "1,2";
+			};
+			name = Debug;
+		};
+		AF6172262270EB4F00F984D5 /* Release */ = {
+			isa = XCBuildConfiguration;
+			baseConfigurationReference = 64F4D2D58B87C730B80409D8 /* Pods-RedBiteDemo.release.xcconfig */;
+			buildSettings = {
+				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				CODE_SIGN_STYLE = Automatic;
+				INFOPLIST_FILE = RedBiteDemo/Info.plist;
+				LD_RUNPATH_SEARCH_PATHS = (
+					"$(inherited)",
+					"@executable_path/Frameworks",
+				);
+				PRODUCT_BUNDLE_IDENTIFIER = com.redbite.mobile;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SWIFT_VERSION = 4.2;
+				TARGETED_DEVICE_FAMILY = "1,2";
+			};
+			name = Release;
+		};
+		AF6172282270EB4F00F984D5 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			baseConfigurationReference = 516CC0CB82059561E91FB418 /* Pods-RedBiteDemoTests.debug.xcconfig */;
+			buildSettings = {
+				ALWAYS_EMBED_SWIFT_STANDARD_LIBRARIES = YES;
+				BUNDLE_LOADER = "$(TEST_HOST)";
+				CODE_SIGN_STYLE = Automatic;
+				INFOPLIST_FILE = RedBiteDemoTests/Info.plist;
+				LD_RUNPATH_SEARCH_PATHS = (
+					"$(inherited)",
+					"@executable_path/Frameworks",
+					"@loader_path/Frameworks",
+				);
+				PRODUCT_BUNDLE_IDENTIFIER = com.redbite.mobile.RedBiteDemoTests;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SWIFT_VERSION = 4.2;
+				TARGETED_DEVICE_FAMILY = "1,2";
+				TEST_HOST = "$(BUILT_PRODUCTS_DIR)/RedBiteDemo.app/RedBiteDemo";
+			};
+			name = Debug;
+		};
+		AF6172292270EB4F00F984D5 /* Release */ = {
+			isa = XCBuildConfiguration;
+			baseConfigurationReference = D3A211A7D145176B400B7EF3 /* Pods-RedBiteDemoTests.release.xcconfig */;
+			buildSettings = {
+				ALWAYS_EMBED_SWIFT_STANDARD_LIBRARIES = YES;
+				BUNDLE_LOADER = "$(TEST_HOST)";
+				CODE_SIGN_STYLE = Automatic;
+				INFOPLIST_FILE = RedBiteDemoTests/Info.plist;
+				LD_RUNPATH_SEARCH_PATHS = (
+					"$(inherited)",
+					"@executable_path/Frameworks",
+					"@loader_path/Frameworks",
+				);
+				PRODUCT_BUNDLE_IDENTIFIER = com.redbite.mobile.RedBiteDemoTests;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SWIFT_VERSION = 4.2;
+				TARGETED_DEVICE_FAMILY = "1,2";
+				TEST_HOST = "$(BUILT_PRODUCTS_DIR)/RedBiteDemo.app/RedBiteDemo";
+			};
+			name = Release;
+		};
+		AF61722B2270EB4F00F984D5 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			baseConfigurationReference = 657F4742DE20F5AF6E290430 /* Pods-RedBiteDemoUITests.debug.xcconfig */;
+			buildSettings = {
+				ALWAYS_EMBED_SWIFT_STANDARD_LIBRARIES = YES;
+				CODE_SIGN_STYLE = Automatic;
+				INFOPLIST_FILE = RedBiteDemoUITests/Info.plist;
+				LD_RUNPATH_SEARCH_PATHS = (
+					"$(inherited)",
+					"@executable_path/Frameworks",
+					"@loader_path/Frameworks",
+				);
+				PRODUCT_BUNDLE_IDENTIFIER = com.redbite.mobile.RedBiteDemoUITests;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SWIFT_VERSION = 4.2;
+				TARGETED_DEVICE_FAMILY = "1,2";
+				TEST_TARGET_NAME = RedBiteDemo;
+			};
+			name = Debug;
+		};
+		AF61722C2270EB4F00F984D5 /* Release */ = {
+			isa = XCBuildConfiguration;
+			baseConfigurationReference = 85B4CC9EA1C7B5BBE33F9790 /* Pods-RedBiteDemoUITests.release.xcconfig */;
+			buildSettings = {
+				ALWAYS_EMBED_SWIFT_STANDARD_LIBRARIES = YES;
+				CODE_SIGN_STYLE = Automatic;
+				INFOPLIST_FILE = RedBiteDemoUITests/Info.plist;
+				LD_RUNPATH_SEARCH_PATHS = (
+					"$(inherited)",
+					"@executable_path/Frameworks",
+					"@loader_path/Frameworks",
+				);
+				PRODUCT_BUNDLE_IDENTIFIER = com.redbite.mobile.RedBiteDemoUITests;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SWIFT_VERSION = 4.2;
+				TARGETED_DEVICE_FAMILY = "1,2";
+				TEST_TARGET_NAME = RedBiteDemo;
+			};
+			name = Release;
+		};
+/* End XCBuildConfiguration section */
+
+/* Begin XCConfigurationList section */
+		AF6171F72270EB4D00F984D5 /* Build configuration list for PBXProject "RedBiteDemo" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				AF6172222270EB4F00F984D5 /* Debug */,
+				AF6172232270EB4F00F984D5 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		AF6172242270EB4F00F984D5 /* Build configuration list for PBXNativeTarget "RedBiteDemo" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				AF6172252270EB4F00F984D5 /* Debug */,
+				AF6172262270EB4F00F984D5 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		AF6172272270EB4F00F984D5 /* Build configuration list for PBXNativeTarget "RedBiteDemoTests" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				AF6172282270EB4F00F984D5 /* Debug */,
+				AF6172292270EB4F00F984D5 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		AF61722A2270EB4F00F984D5 /* Build configuration list for PBXNativeTarget "RedBiteDemoUITests" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				AF61722B2270EB4F00F984D5 /* Debug */,
+				AF61722C2270EB4F00F984D5 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+/* End XCConfigurationList section */
+	};
+	rootObject = AF6171F42270EB4D00F984D5 /* Project object */;
+}
