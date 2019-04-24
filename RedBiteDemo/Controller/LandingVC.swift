@@ -12,14 +12,16 @@ import Async
 import SwiftyJSON
 
 struct Contribuitor {
-    var imgUrl: String?
-    var name = ""
-    var commits = 0
+    var imgUrl      : String?
+    var name        = ""
+    var commits     = 0
+    var profileURL  : String?
     
     init(json: JSON) {
         self.imgUrl     = json["avatar_url"].string
         self.name       = json["login"].stringValue
         self.commits    = json["contributions"].intValue
+        self.profileURL = json["url"].string
     }
 }
 
@@ -118,6 +120,9 @@ class LandingVC: UITableViewController {
     
     override func tableView(_ tableView: UITableView, didSelectRowAt indexPath: IndexPath) {
         tableView.deselectRow(at: indexPath, animated: true)
+        
+        let vc = storyboard?.instantiateViewController(withIdentifier: "ContribuitorInfoVC") as! ContribuitorInfoVC
+        navigationController?.pushViewController(vc, animated: true)
     }
 }
 

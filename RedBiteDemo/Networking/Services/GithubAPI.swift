@@ -16,14 +16,14 @@ enum GithubAPI {
 
 extension GithubAPI: TargetType {
     var baseURL: URL {
-        return URL(string: "https://api.github.com/repos/")!
+        return URL(string: "https://api.github.com/")!
     }
     
     var path: String {
         switch self {
             
         case .getRepositories:
-            return "vsouza/awesome-ios/contributors"
+            return "repos/vsouza/awesome-ios/contributors"
         }
     }
     
